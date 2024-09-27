@@ -462,7 +462,7 @@ function Crossw1rd(container_id) {
       self.checkWord();
     });
     // ctrl+shift+a - check puzzle
-    $(document).bind("keydown", "ctrl+shift+a", function () {
+    $(document).bind("keydown", "ctrl+shift", function () {
       self.checkPuzzle();
     });
   };
